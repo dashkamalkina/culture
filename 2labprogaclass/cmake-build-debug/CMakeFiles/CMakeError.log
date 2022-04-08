@@ -1,0 +1,62 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /cygdrive/c/Users/DARIA/Desktop/clabs/2_sem_proga/2labprogaclass/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_889bb/fast && make: *** No rule to make target 'cmTC_889bb/fast'.  Stop.
+
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /cygdrive/c/Users/DARIA/Desktop/clabs/2_sem_proga/2labprogaclass/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_92c71/fast && /usr/bin/make  -f CMakeFiles/cmTC_92c71.dir/build.make CMakeFiles/cmTC_92c71.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/DARIA/Desktop/clabs/2_sem_proga/2labprogaclass/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_92c71.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_92c71.dir/CMakeCCompilerABI.c.o -c /cygdrive/c/Users/DARIA/AppData/Local/JetBrains/CLion2021.2/cygwin_cmake/share/cmake-3.20.2/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: x86_64-pc-cygwin
+Configured with: /mnt/share/cygpkgs/gcc/gcc.x86_64/src/gcc-11.2.0/configure --srcdir=/mnt/share/cygpkgs/gcc/gcc.x86_64/src/gcc-11.2.0 --prefix=/usr --exec-prefix=/usr --localstatedir=/var --sysconfdir=/etc --docdir=/usr/share/doc/gcc --htmldir=/usr/share/doc/gcc/html -C --build=x86_64-pc-cygwin --host=x86_64-pc-cygwin --target=x86_64-pc-cygwin --without-libiconv-prefix --without-libintl-prefix --libexecdir=/usr/lib --with-gcc-major-version-only --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --enable-bootstrap --enable-__cxa_atexit --with-dwarf2 --with-tune=generic --disable-bootstrap --enable-languages=c,c++,fortran,lto,objc,obj-c++,jit --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --enable-libquadmath --enable-libquadmath-support --disable-libssp --enable-libada --disable-symvers --with-gnu-ld --with-gnu-as --with-cloog-include=/usr/include/cloog-isl --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible --enable-libstdcxx-filesystem-ts
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_92c71.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_92c71.dir/'
+ /usr/lib/gcc/x86_64-pc-cygwin/11/cc1.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/11/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api /cygdrive/c/Users/DARIA/AppData/Local/JetBrains/CLion2021.2/cygwin_cmake/share/cmake-3.20.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_92c71.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccfdq7VJ.s
+GNU C17 (GCC) version 11.2.0 (x86_64-pc-cygwin)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-cygwin/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../x86_64-pc-cygwin/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-pc-cygwin/11/include
+ /usr/include
+ /usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api
+End of search list.
+GNU C17 (GCC) version 11.2.0 (x86_64-pc-cygwin)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: befd73bee7080c4d72157ef5c760fe84
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_92c71.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_92c71.dir/'
+ /usr/lib/gcc/x86_64-pc-cygwin/11/../../../../x86_64-pc-cygwin/bin/as.exe -v -o CMakeFiles/cmTC_92c71.dir/CMakeCCompilerABI.c.o /tmp/ccfdq7VJ.s
+GNU assembler version 2.37 (x86_64-pc-cygwin) using BFD version (GNU Binutils) 2.37
+Assembler messages:
+Fatal error: can't create CMakeFiles/cmTC_92c71.dir/CMakeCCompilerABI.c.o: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_92c71.dir/build.make:78: CMakeFiles/cmTC_92c71.dir/CMakeCCompilerABI.c.o] Error 1
+make[1]: Leaving directory '/cygdrive/c/Users/DARIA/Desktop/clabs/2_sem_proga/2labprogaclass/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_92c71/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /cygdrive/c/Users/DARIA/Desktop/clabs/2_sem_proga/2labprogaclass/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_24cf2/fast && make: *** No rule to make target 'Makefile'.  Stop.
+
+
+
