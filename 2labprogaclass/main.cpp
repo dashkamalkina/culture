@@ -1,5 +1,5 @@
 #include <iostream>
-//#include "header.h"
+#include "header.h"
 #include "Stack.h"
 
 int main()

@@ -3,6 +3,7 @@
 //
 #include "header.h"
 #include <iostream>
+#include <cstring>
 
 using namespace std;
 void menu()
@@ -25,13 +26,10 @@ void menu()
         {
             cout << "1 - push element:\n";
             cout << "2 - pop element:\n";
-            cout << "3 - getTop elemen:\n";
+            cout << "3 - getTop element:\n";
             cout << "4 - empty element:\n";
-            cout << "5 - count element:\n";
-            cout << "6 - print element:\n";
-            cout << "7 - max_size:\n";
-            cout << "8 - size:\n";
-            cout << "9 - elem:\n";
+            cout << "5 - print element:\n";
+
         }
         else if (strcmp(command, "1") == 0)//сравнение двух строк проверяет первый элемент 1 строки со второй строкой
         {
@@ -43,18 +41,20 @@ void menu()
         {
             this->pop();
         }
-        else if(strcmp(command, "8") == 0)
-        {
-            cout << "size is:";
-            cout << this->size() << endl;
-        }
-        else if(strcmp(command, "6") == 0)
+        else if(strcmp(command, "5") == 0)
         {
             this->print();
         }
         else if (strcmp(command, "3") == 0)
         {
             cout << this->getTop() << endl;
+        }
+        else if (strcmp(command, "4") == 0)
+        {
+            if (this->is_empty())
+                cout << "stack is empty" << endl;
+            else
+                cout << "stack is not empty" << endl;
         }
     }
 }

@@ -4,4 +4,4 @@ project(untitled10)
 set(CMAKE_CXX_STANDARD 17)
 include_directories(.)
 
-add_executable(untitled10 main.cpp Stack.h Stack.cpp)
+add_executable(untitled10 main.cpp Stack.h Stack.cpp menu.cpp header.h)

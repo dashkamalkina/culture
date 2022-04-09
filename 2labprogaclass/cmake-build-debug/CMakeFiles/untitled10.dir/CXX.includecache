@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/DARIA/Desktop/clabs/2_sem_proga/2labprogaclass/Stack.h
+iostream
+-
+
+/cygdrive/c/Users/DARIA/Desktop/clabs/2_sem_proga/2labprogaclass/header.h
+
+/cygdrive/c/Users/DARIA/Desktop/clabs/2_sem_proga/2labprogaclass/main.cpp
+iostream
+-
+header.h
+/cygdrive/c/Users/DARIA/Desktop/clabs/2_sem_proga/2labprogaclass/header.h
+Stack.h
+/cygdrive/c/Users/DARIA/Desktop/clabs/2_sem_proga/2labprogaclass/Stack.h
+
+/cygdrive/c/Users/DARIA/Desktop/clabs/2_sem_proga/2labprogaclass/menu.cpp
+header.h
+/cygdrive/c/Users/DARIA/Desktop/clabs/2_sem_proga/2labprogaclass/header.h
+iostream
+-
+cstring
+-
+

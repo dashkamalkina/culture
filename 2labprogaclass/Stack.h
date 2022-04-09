@@ -35,7 +35,7 @@ public:
 
     int getSize() const;
 
-    int getTop() const;
+    int getTop(int i) const;
 
     void print() const;
 

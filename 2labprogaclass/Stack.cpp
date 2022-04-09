@@ -9,10 +9,12 @@ Stack:: ~Stack()//деструктор
 Stack:: Stack(int capacity): capacity(capacity), deep(0), head(nullptr) {}
 
 Stack:: Stack (const Stack& other) : capacity(0), deep(0) {
-    other = other->data;
-
-
-
+    head = nullptr;
+    int i = other.getSize() - 1;
+    while(i > -1) {
+        this->push(other.getTop(i));
+        i--;
+    }
 }
 
 
@@ -46,7 +48,7 @@ int Stack:: getSize() const{
     return deep;
 }
 
-int Stack:: getTop() const{
+int Stack::getTop(int i) const{
     return head->data;
 }
 
