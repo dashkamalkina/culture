@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/DARIA/Desktop/clabs/2_sem_proga/3labaproga1/main.cpp
+queue.h
+/cygdrive/c/Users/DARIA/Desktop/clabs/2_sem_proga/3labaproga1/queue.h
+iostream
+-
+
+/cygdrive/c/Users/DARIA/Desktop/clabs/2_sem_proga/3labaproga1/queue.cpp
+queue.h
+/cygdrive/c/Users/DARIA/Desktop/clabs/2_sem_proga/3labaproga1/queue.h
+iostream
+-
+queue
+-
+
+/cygdrive/c/Users/DARIA/Desktop/clabs/2_sem_proga/3labaproga1/queue.h
+queue
+-
+

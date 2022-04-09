@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/3labaproga1.dir/main.cpp.o CMakeFiles/3labaproga1.dir/queue.cpp.o -o 3labaproga1.exe -Wl,--out-implib,lib3labaproga1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
