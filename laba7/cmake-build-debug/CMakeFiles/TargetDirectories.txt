@@ -1,0 +1,3 @@
+/cygdrive/c/Users/DARIA/Desktop/clabs/2_sem_proga/laba7/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/DARIA/Desktop/clabs/2_sem_proga/laba7/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/DARIA/Desktop/clabs/2_sem_proga/laba7/cmake-build-debug/CMakeFiles/laba7.dir
